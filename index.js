@@ -59,7 +59,7 @@ const Dashboard = () => {
                   className="mt-2" 
                   onClick={() => {
                     const url = 'https://youtu.be/U8ZUILgMUho';
-                    window.location.href = url;
+                    window.open(url, '_blank');
                   }}
                 >
                   צפו בסרטון ההסבר
@@ -193,3 +193,4 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
